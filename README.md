@@ -1,6 +1,6 @@
 # SwiftUI RadioView
 [![Swift Version](https://img.shields.io/badge/Swift-5.8-orange.svg)](https://swift.org)
-[![Check Success](https://badgen.net/github/checks/styfle/packagephobia/main)]
+[![Check Success](https://badgen.net/github/checks/styfle/packagephobia/main)](https://swift.org)
 
 
 This is a demo app showcasing how to use radio view buttons in SwiftUI. The buttons support `onTapGesture` and `withAnimation` for a smooth user experience.
