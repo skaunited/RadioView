@@ -1,0 +1,617 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		485F3F1E2A079EBF00F05F4F /* SwiftUI_Radio_AnimationApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 485F3F1D2A079EBF00F05F4F /* SwiftUI_Radio_AnimationApp.swift */; };
+		485F3F202A079EBF00F05F4F /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 485F3F1F2A079EBF00F05F4F /* ContentView.swift */; };
+		485F3F222A079EC000F05F4F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 485F3F212A079EC000F05F4F /* Assets.xcassets */; };
+		485F3F262A079EC000F05F4F /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 485F3F252A079EC000F05F4F /* Preview Assets.xcassets */; };
+		485F3F302A079EC000F05F4F /* SwiftUI_Radio_AnimationTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 485F3F2F2A079EC000F05F4F /* SwiftUI_Radio_AnimationTests.swift */; };
+		485F3F3A2A079EC000F05F4F /* SwiftUI_Radio_AnimationUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 485F3F392A079EC000F05F4F /* SwiftUI_Radio_AnimationUITests.swift */; };
+		485F3F3C2A079EC000F05F4F /* SwiftUI_Radio_AnimationUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 485F3F3B2A079EC000F05F4F /* SwiftUI_Radio_AnimationUITestsLaunchTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		485F3F2C2A079EC000F05F4F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 485F3F122A079EBF00F05F4F /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 485F3F192A079EBF00F05F4F;
+			remoteInfo = "SwiftUI Radio Animation";
+		};
+		485F3F362A079EC000F05F4F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 485F3F122A079EBF00F05F4F /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 485F3F192A079EBF00F05F4F;
+			remoteInfo = "SwiftUI Radio Animation";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		485F3F1A2A079EBF00F05F4F /* SwiftUI Radio Animation.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "SwiftUI Radio Animation.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		485F3F1D2A079EBF00F05F4F /* SwiftUI_Radio_AnimationApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftUI_Radio_AnimationApp.swift; sourceTree = "<group>"; };
+		485F3F1F2A079EBF00F05F4F /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		485F3F212A079EC000F05F4F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		485F3F232A079EC000F05F4F /* SwiftUI_Radio_Animation.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = SwiftUI_Radio_Animation.entitlements; sourceTree = "<group>"; };
+		485F3F252A079EC000F05F4F /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		485F3F2B2A079EC000F05F4F /* SwiftUI Radio AnimationTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "SwiftUI Radio AnimationTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		485F3F2F2A079EC000F05F4F /* SwiftUI_Radio_AnimationTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftUI_Radio_AnimationTests.swift; sourceTree = "<group>"; };
+		485F3F352A079EC000F05F4F /* SwiftUI Radio AnimationUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "SwiftUI Radio AnimationUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		485F3F392A079EC000F05F4F /* SwiftUI_Radio_AnimationUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftUI_Radio_AnimationUITests.swift; sourceTree = "<group>"; };
+		485F3F3B2A079EC000F05F4F /* SwiftUI_Radio_AnimationUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftUI_Radio_AnimationUITestsLaunchTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		485F3F172A079EBF00F05F4F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		485F3F282A079EC000F05F4F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		485F3F322A079EC000F05F4F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		485F3F112A079EBF00F05F4F = {
+			isa = PBXGroup;
+			children = (
+				485F3F1C2A079EBF00F05F4F /* SwiftUI Radio Animation */,
+				485F3F2E2A079EC000F05F4F /* SwiftUI Radio AnimationTests */,
+				485F3F382A079EC000F05F4F /* SwiftUI Radio AnimationUITests */,
+				485F3F1B2A079EBF00F05F4F /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		485F3F1B2A079EBF00F05F4F /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				485F3F1A2A079EBF00F05F4F /* SwiftUI Radio Animation.app */,
+				485F3F2B2A079EC000F05F4F /* SwiftUI Radio AnimationTests.xctest */,
+				485F3F352A079EC000F05F4F /* SwiftUI Radio AnimationUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		485F3F1C2A079EBF00F05F4F /* SwiftUI Radio Animation */ = {
+			isa = PBXGroup;
+			children = (
+				485F3F1D2A079EBF00F05F4F /* SwiftUI_Radio_AnimationApp.swift */,
+				485F3F1F2A079EBF00F05F4F /* ContentView.swift */,
+				485F3F212A079EC000F05F4F /* Assets.xcassets */,
+				485F3F232A079EC000F05F4F /* SwiftUI_Radio_Animation.entitlements */,
+				485F3F242A079EC000F05F4F /* Preview Content */,
+			);
+			path = "SwiftUI Radio Animation";
+			sourceTree = "<group>";
+		};
+		485F3F242A079EC000F05F4F /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				485F3F252A079EC000F05F4F /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		485F3F2E2A079EC000F05F4F /* SwiftUI Radio AnimationTests */ = {
+			isa = PBXGroup;
+			children = (
+				485F3F2F2A079EC000F05F4F /* SwiftUI_Radio_AnimationTests.swift */,
+			);
+			path = "SwiftUI Radio AnimationTests";
+			sourceTree = "<group>";
+		};
+		485F3F382A079EC000F05F4F /* SwiftUI Radio AnimationUITests */ = {
+			isa = PBXGroup;
+			children = (
+				485F3F392A079EC000F05F4F /* SwiftUI_Radio_AnimationUITests.swift */,
+				485F3F3B2A079EC000F05F4F /* SwiftUI_Radio_AnimationUITestsLaunchTests.swift */,
+			);
+			path = "SwiftUI Radio AnimationUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		485F3F192A079EBF00F05F4F /* SwiftUI Radio Animation */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 485F3F3F2A079EC000F05F4F /* Build configuration list for PBXNativeTarget "SwiftUI Radio Animation" */;
+			buildPhases = (
+				485F3F162A079EBF00F05F4F /* Sources */,
+				485F3F172A079EBF00F05F4F /* Frameworks */,
+				485F3F182A079EBF00F05F4F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "SwiftUI Radio Animation";
+			productName = "SwiftUI Radio Animation";
+			productReference = 485F3F1A2A079EBF00F05F4F /* SwiftUI Radio Animation.app */;
+			productType = "com.apple.product-type.application";
+		};
+		485F3F2A2A079EC000F05F4F /* SwiftUI Radio AnimationTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 485F3F422A079EC000F05F4F /* Build configuration list for PBXNativeTarget "SwiftUI Radio AnimationTests" */;
+			buildPhases = (
+				485F3F272A079EC000F05F4F /* Sources */,
+				485F3F282A079EC000F05F4F /* Frameworks */,
+				485F3F292A079EC000F05F4F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				485F3F2D2A079EC000F05F4F /* PBXTargetDependency */,
+			);
+			name = "SwiftUI Radio AnimationTests";
+			productName = "SwiftUI Radio AnimationTests";
+			productReference = 485F3F2B2A079EC000F05F4F /* SwiftUI Radio AnimationTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		485F3F342A079EC000F05F4F /* SwiftUI Radio AnimationUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 485F3F452A079EC000F05F4F /* Build configuration list for PBXNativeTarget "SwiftUI Radio AnimationUITests" */;
+			buildPhases = (
+				485F3F312A079EC000F05F4F /* Sources */,
+				485F3F322A079EC000F05F4F /* Frameworks */,
+				485F3F332A079EC000F05F4F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				485F3F372A079EC000F05F4F /* PBXTargetDependency */,
+			);
+			name = "SwiftUI Radio AnimationUITests";
+			productName = "SwiftUI Radio AnimationUITests";
+			productReference = 485F3F352A079EC000F05F4F /* SwiftUI Radio AnimationUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		485F3F122A079EBF00F05F4F /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1430;
+				LastUpgradeCheck = 1430;
+				TargetAttributes = {
+					485F3F192A079EBF00F05F4F = {
+						CreatedOnToolsVersion = 14.3;
+					};
+					485F3F2A2A079EC000F05F4F = {
+						CreatedOnToolsVersion = 14.3;
+						TestTargetID = 485F3F192A079EBF00F05F4F;
+					};
+					485F3F342A079EC000F05F4F = {
+						CreatedOnToolsVersion = 14.3;
+						TestTargetID = 485F3F192A079EBF00F05F4F;
+					};
+				};
+			};
+			buildConfigurationList = 485F3F152A079EBF00F05F4F /* Build configuration list for PBXProject "SwiftUI Radio Animation" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 485F3F112A079EBF00F05F4F;
+			productRefGroup = 485F3F1B2A079EBF00F05F4F /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				485F3F192A079EBF00F05F4F /* SwiftUI Radio Animation */,
+				485F3F2A2A079EC000F05F4F /* SwiftUI Radio AnimationTests */,
+				485F3F342A079EC000F05F4F /* SwiftUI Radio AnimationUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		485F3F182A079EBF00F05F4F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				485F3F262A079EC000F05F4F /* Preview Assets.xcassets in Resources */,
+				485F3F222A079EC000F05F4F /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		485F3F292A079EC000F05F4F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		485F3F332A079EC000F05F4F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		485F3F162A079EBF00F05F4F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				485F3F202A079EBF00F05F4F /* ContentView.swift in Sources */,
+				485F3F1E2A079EBF00F05F4F /* SwiftUI_Radio_AnimationApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		485F3F272A079EC000F05F4F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				485F3F302A079EC000F05F4F /* SwiftUI_Radio_AnimationTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		485F3F312A079EC000F05F4F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				485F3F3A2A079EC000F05F4F /* SwiftUI_Radio_AnimationUITests.swift in Sources */,
+				485F3F3C2A079EC000F05F4F /* SwiftUI_Radio_AnimationUITestsLaunchTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		485F3F2D2A079EC000F05F4F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 485F3F192A079EBF00F05F4F /* SwiftUI Radio Animation */;
+			targetProxy = 485F3F2C2A079EC000F05F4F /* PBXContainerItemProxy */;
+		};
+		485F3F372A079EC000F05F4F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 485F3F192A079EBF00F05F4F /* SwiftUI Radio Animation */;
+			targetProxy = 485F3F362A079EC000F05F4F /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		485F3F3D2A079EC000F05F4F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		485F3F3E2A079EC000F05F4F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+			};
+			name = Release;
+		};
+		485F3F402A079EC000F05F4F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = "SwiftUI Radio Animation/SwiftUI_Radio_Animation.entitlements";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"SwiftUI Radio Animation/Preview Content\"";
+				DEVELOPMENT_TEAM = 6HLHYZ382H;
+				ENABLE_HARDENED_RUNTIME = YES;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphoneos*]" = UIStatusBarStyleDefault;
+				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphonesimulator*]" = UIStatusBarStyleDefault;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				LD_RUNPATH_SEARCH_PATHS = "@executable_path/Frameworks";
+				"LD_RUNPATH_SEARCH_PATHS[sdk=macosx*]" = "@executable_path/../Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 13.3;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "codevelop.SwiftUI-Radio-Animation";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		485F3F412A079EC000F05F4F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = "SwiftUI Radio Animation/SwiftUI_Radio_Animation.entitlements";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"SwiftUI Radio Animation/Preview Content\"";
+				DEVELOPMENT_TEAM = 6HLHYZ382H;
+				ENABLE_HARDENED_RUNTIME = YES;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphoneos*]" = UIStatusBarStyleDefault;
+				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphonesimulator*]" = UIStatusBarStyleDefault;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				LD_RUNPATH_SEARCH_PATHS = "@executable_path/Frameworks";
+				"LD_RUNPATH_SEARCH_PATHS[sdk=macosx*]" = "@executable_path/../Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 13.3;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "codevelop.SwiftUI-Radio-Animation";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		485F3F432A079EC000F05F4F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 6HLHYZ382H;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MACOSX_DEPLOYMENT_TARGET = 13.3;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "codevelop.SwiftUI-Radio-AnimationTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SwiftUI Radio Animation.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/SwiftUI Radio Animation";
+			};
+			name = Debug;
+		};
+		485F3F442A079EC000F05F4F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 6HLHYZ382H;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MACOSX_DEPLOYMENT_TARGET = 13.3;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "codevelop.SwiftUI-Radio-AnimationTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SwiftUI Radio Animation.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/SwiftUI Radio Animation";
+			};
+			name = Release;
+		};
+		485F3F462A079EC000F05F4F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 6HLHYZ382H;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MACOSX_DEPLOYMENT_TARGET = 13.3;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "codevelop.SwiftUI-Radio-AnimationUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "SwiftUI Radio Animation";
+			};
+			name = Debug;
+		};
+		485F3F472A079EC000F05F4F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 6HLHYZ382H;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MACOSX_DEPLOYMENT_TARGET = 13.3;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "codevelop.SwiftUI-Radio-AnimationUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "SwiftUI Radio Animation";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		485F3F152A079EBF00F05F4F /* Build configuration list for PBXProject "SwiftUI Radio Animation" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				485F3F3D2A079EC000F05F4F /* Debug */,
+				485F3F3E2A079EC000F05F4F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		485F3F3F2A079EC000F05F4F /* Build configuration list for PBXNativeTarget "SwiftUI Radio Animation" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				485F3F402A079EC000F05F4F /* Debug */,
+				485F3F412A079EC000F05F4F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		485F3F422A079EC000F05F4F /* Build configuration list for PBXNativeTarget "SwiftUI Radio AnimationTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				485F3F432A079EC000F05F4F /* Debug */,
+				485F3F442A079EC000F05F4F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		485F3F452A079EC000F05F4F /* Build configuration list for PBXNativeTarget "SwiftUI Radio AnimationUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				485F3F462A079EC000F05F4F /* Debug */,
+				485F3F472A079EC000F05F4F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 485F3F122A079EBF00F05F4F /* Project object */;
+}
